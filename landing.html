@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEM App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8223ee;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .logo img {
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+        .qr-code {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .qr-code img {
+            max-width: 300px;
+            margin: 0 20px;
+        }
+        .download-buttons {
+            margin-top: 30px;
+            margin-bottom: 150px;
+        }
+        .download-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 14px 24px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+        .small-text {
+            color: #fff
+        }
+        .description {
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-left: 50px;
+            margin-right: 50px;
+            color: #fff;
+            font-family: "Verdana";
+        }
+        .rounded-image {
+            border-radius: 25px; /* Adjust the value to change the degree of rounding */
+            overflow: hidden; /* Ensures the image doesn't overflow beyond the rounded corners */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="wemLarge.png" alt="WEM App Logo">
+    </div>
+    <div class="description">
+        <p>Fun multiplayer game to play with your friends: Each round one player picks another player that fits best with the statement. The player picked gets to pick a new player for the next statement. </p>
+    </div>
+    <div class="qr-code">
+        <div>
+            <img class="rounded-image" src="qrCode.png" alt="QR Code 1">
+            <p class="small-text">Scan to download on iOS or Android</p>
+        </div>
+    </div>
+    <div class="download-buttons">
+        <a href="https://apps.apple.com/us/app/wem-most-likely-to/id6459450314" target="_blank">Download on the App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.munxh.hundredquestions&pcampaignid=web_share" target="_blank">Get it on Google Play</a>
+    </div>
+    <footer>
+        <p>© 2024 WEM App. All rights reserved.</p>
+        <p>created by Munxh</p>
+    </footer>
+
+</div>
+</body>
+</html>
